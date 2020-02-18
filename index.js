@@ -15,7 +15,7 @@ const port = 5000;
 api.listen(port, () => console.log(`server started on ${port}`));
 
 const uri = "mongodb://localhost:27017";
-const dbName = "nerdflix";
+const dbName = "movies";
 const collectionName = "movies";
 
 const config = { useUnifiedTopology: true };
@@ -34,41 +34,40 @@ client.connect(err => {
 });
 
 
-api.get("/api/peliculas", (req, res) => {
-
-    const movies = [
-        {id : 1, firstName : 'Pedro', lastName : 'Alvarez'},
-        {id : 2, firstName : 'Andres', lastName : 'Diaz'},
-        {id : 3, firstName : 'Alfredo', lastName : 'Gonzales'}
-    ]
-
-    res.json(movies)
+api.get("/api/peliculas", ({ params: { id: _id } }, res) => {
 
 
-    // client.connect(err => {
-    //     if(err) throw err;
+    // const movies = [
+    //     {id : 1, Poster : 'https://picsum.photos/id/0/300/300', Title : 'Iron Man', Year : 2008, ficha : 'ironMan'},
+    //     {id : 2, Poster : 'https://picsum.photos/id/1/300/300', Title : 'The Incredible Hulk', Year : 2008, ficha : 'Hulk'},
+    //     {id : 3, Poster : 'https://picsum.photos/id/2/300/300', Title : 'Iron Man II', Year : 2010},
+    //     {id : 3, Poster : 'https://picsum.photos/id/3/300/300', Title : 'Thor', Year : 2011}
+    // ]
+
+    // res.json(movies)
+
+
+
+    client.connect(err => {
+        if(err) throw err;
         
-    //     const db = client.db(dbName)
-    //     const collection = db.collection(collectionName)
+        const db = client.db(dbName)
+        const collection = db.collection(collectionName)
         
-    //     let query = {}
-    //     if ( !isEmpty( _id ) ) {
-    //     query = { ...query , _id : ObjectId(_id) }
-    // }
+        let query = {}
+        if ( !isEmpty( _id ) ) {
+            query = { ...query , _id : ObjectId(_id) }
+        }
         
-    //     collection.find(query).toArray((err,result) => {
-    //         if(err) throw err;
+        collection.find(query).toArray((err,result) => {
+            if(err) throw err;
 
-    //         (async function () { // pasar a AXIOS o node-fetch (axios tiene promesas embebidas, no se utilizan metodos then ni operaciones intermediarias para convertir los datos)
+            res.json(result)
 
-    //             await fetch('http://localhost:8080/api/peliculas');
-    //             result.forEach(e => localStorage.setItem("hola",JSON.stringify(e)))
-
-    //         })()
+            })
         
-    //         response.json(result)
-    //     })
-    // })    
+        
+    })    
 });
 
 api.post("/api/peliculas", ({ body: pelicula }, response) => {
