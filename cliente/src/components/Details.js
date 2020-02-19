@@ -1,46 +1,41 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
-class Details extends React.Component {
+// import Details from '../Details'
+// import './App.css';
 
-    constructor() {
-        super();
-        this.state = {
-            movies: []
-        }
-    }
+function Details({ match }) {
 
-    componentDidMount() {
-        fetch('/api/peliculas')
-        .then(res => res.json())
-        .then(movies => this.setState({movies}, () => console.log('movies fetched...', movies)));
-    }
+    useEffect(() => {
+        fetchItem();
+        console.log(match)
+    })
 
-    render() {
-        
-        return (
-            <div>
-                { this.state.movies.map(movie => 
-                    <div key="movie._id">
-                        <h1>{ movie.Title }</h1>
+    const [movie, setMovie] = useState([]);
 
-                        <div className="row">
-                            <div className="col-6">
-                                { movie.Trailer }
-                            </div>
+    const fetchItem = async () => {
 
-                            <div className="col-6">
-                                { movie.Poster }
-                            </div>
-                        </div>
+        const fetchItems = await fetch(`/api/peliculas/${match.params.id}`)
 
-                    </div>
+        const movie = await fetchItem.json();
+
+        console.log(movie)
+      
+    };
+
+    return (
+        <div>
+            <p style={{ textShadow: "5px 5px 5px black", fontSize: "50px", color: "white" }}>item</p>
+            <div className="row m-0 w-100 mx-auto">
                 
-                )}
 
-                
+                    
             </div>
-        )
+        </div>
+        );
     }
-}
+
+  
+
 
 export default Details;

@@ -1,20 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Movies from './components/Movies/Movies'
+import Details from './components/Details'
+
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <p style={{ textShadow: "5px 5px 5px black", fontSize: "50px" }}>ULTIMOS ESTRENOS</p>
-      </header>
+    <Router>
+      <div className="App">
 
-        <Movies />
+        <Switch>
+          <Route path="/" exact component={Movies} />
+          <Route path="/movie/:id" exact component={Details} />
+        </Switch>
 
-    </div>
+      </div>
+    </Router>
   );
 }
+
+// const Home = () => (
+//   <div>
+//     <h1></h1>
+//   </div>
+// )
 
 export default App;
