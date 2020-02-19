@@ -15,7 +15,7 @@ const port = 5000;
 api.listen(port, () => console.log(`server started on ${port}`));
 
 const uri = "mongodb://localhost:27017";
-const dbName = "movies";
+const dbName = "nerdflix";
 const collectionName = "movies";
 
 const config = { useUnifiedTopology: true };
@@ -62,26 +62,25 @@ api.get("/api/peliculas", ({ params: { id: _id } }, res) => {
         collection.find(query).toArray((err,result) => {
             if(err) throw err;
 
-            res.json(result)
+                res.json(result)
 
             })
-        
         
     })    
 });
 
-api.post("/api/peliculas", ({ body: pelicula }, response) => {
+// api.post("/api/peliculas", ({ body: pelicula }, response) => {
 
-    client.connect(err => {
+//     client.connect(err => {
         
-        collection.insertOne(pelicula, (err, result) => {
-        if (err) throw err
-        response.json({
-            success: true,
-            message: "added."
-        })
-    })
-});
+//         collection.insertOne(pelicula, (err, result) => {
+//         if (err) throw err
+//         response.json({
+//             success: true,
+//             message: "added."
+//         })
+//     })
+// });
 
-})
+// })
 

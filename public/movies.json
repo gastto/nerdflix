@@ -1,0 +1,169 @@
+[
+    { 
+        "title": "Iron Man", 
+        "years": 2008, 
+        "poster": "https://drive.google.com/uc?id=1SftjubjxcLD_ry4pBRO5r7fdF9qCdJrx", 
+        "trailer": "https://youtu.be/KAE5ymVLmZg", 
+        "description": "Un empresario millonario construye un traje blindado y lo usa para combatir el crimen y el terrorismo." 
+    },
+
+    { 
+        "title": "The Incredible Hulk", 
+        "years": 2008, 
+        "poster": "https://drive.google.com/uc?id=1HU17QOziHldGmng-XwTJmGg6miX60m_L", 
+        "trailer": "https://youtu.be/xbqNb2PFKKA", 
+        "description": "Bruce Banner recorre el mundo en busca de un antídoto para librarse de su alter ego. Además tendrá que hacer frente a Emil, un nuevo enemigo, lo que convertirá a Nueva York en el escenario de la última batalla entre las dos criaturas más poderosas." 
+    },
+
+    { 
+        "title": "Iron Man II", 
+        "years": 2010, 
+        "poster": "https://drive.google.com/uc?id=1dmNpOyD-q_9MnWDwSR_lq71vpqcr_FFF", 
+        "trailer": "https://youtu.be/BoohRoVA9WQ", 
+        "description": "Con el mundo ahora consciente de que él es Iron Man, el millonario inventor Tony Stark debe forjar nuevas alianzas y confrontar a un enemigo nuevo y poderoso."
+    },
+
+    { 
+        "title": "Thor",
+        "years": 2011,
+        "poster": "https://drive.google.com/uc?id=1MJH5OFaVQKLojA_qL_387k2C8R-TJcau",
+        "trailer": "https://youtu.be/JOddp-nlNvQ",
+        "description": "Tras desatar una antigua guerra, el codicioso guerrero Thor es desterrado a la Tierra por su padre para que viva entre los hombres y descubra así el verdadero sentido de la humildad"
+    },
+    
+    { 
+        "title": "Captain America: The First Avenger",
+        "years": 2011,
+        "poster": "https://drive.google.com/uc?id=1X9V1Q8KHFC6oyTWvS2CdqxqloHMVaG03",
+        "trailer": "https://youtu.be/JerVrbLldXw",
+        "description": "Tras tres meses de someterse a un programa de entrenamiento físico y táctico, encomiendan a Steve Rogers su primera misión como Capitán América. Armado con un escudo indestructible, emprende la guerra contra la perversa organización HYDRA."
+    },
+
+    { 
+        "title": "The Avengers",
+        "years": 2012,
+        "poster": "https://drive.google.com/uc?id=1aFzIw9rqL_5d98ytE50A3ifuENeaIdov",
+        "trailer": "https://youtu.be/eOrNdBpGMv8",
+        "description": "El director de la Agencia SHIELD decide reclutar a un equipo para salvar al mundo de un desastre casi seguro cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial."
+    },
+
+    { 
+        "title": "Iron Man III",
+        "years": 2013,
+        "poster": "https://drive.google.com/uc?id=1dUR_M0CSNEjejqkOLBFadWhHFcEiAOlE",
+        "trailer": "https://youtu.be/Ke1Y3P9D0Bc",
+        "description": "El descarado y brillante Tony Stark, tras ver destruido todo su universo personal, debe encontrar y enfrentarse a un enemigo cuyo poder no conoce límites. Este viaje pondrá a prueba su entereza una y otra vez, y le obligará a confiar en su ingenio."
+    },
+
+    { 
+        "title": "Thor: The Dark World",
+        "years": 2013,
+        "poster": "https://drive.google.com/uc?id=1ISu-xWJFAvsMYmm4Z0kgt-fcjbjuucJf",
+        "trailer": "https://youtu.be/npvJ9FTgZbM",
+        "description": "Malekith, un enemigo más antiguo que el universo, regresa a la Tierra para cumplir su plan destructor. Thor debe enfrentarse a un rival al que ni siquiera Odín parece poder detener y, desesperado, libera a su hermano Loki para que lo ayude."
+    },
+
+    { 
+        "title": "Captain America: The Winter Soldier",
+        "years": 2014,
+        "poster": "https://drive.google.com/uc?id=13eJErFibfJgf-IlJ6iKB2NBrjp9b4VRV",
+        "trailer": "https://youtu.be/tbayiPxkUMM",
+        "description": "Capitán América, Viuda Negra y un nuevo aliado, Falcon, se enfrentan a un enemigo inesperado mientras intentan exponer una conspiración que pone en riesgo al mundo."
+    },
+
+    { 
+        "title": "Guardians of the Galaxy",
+        "years": 2014,
+        "poster": "https://drive.google.com/uc?id=1WSugsm9Di8bjrhxxwyRI1SsBjLRX4Cbe",
+        "trailer": "https://youtu.be/d96cjJhvlMA",
+        "description": "Un aventurero espacial se convierte en la presa de unos cazadores de tesoros después de robar el orbe de un villano traicionero. Cuando descubre su poder, debe hallar la forma de unir a unos rivales para salvar al universo."
+    },
+
+    { 
+        "title": "Avengers: Age of Ultron",
+        "years": 2015,
+        "poster": "https://drive.google.com/uc?id=10zQ7rzFwj6SRY6kihQjnMuyG0tRQJkD6",
+        "trailer": "https://youtu.be/tmeOjFno6Do",
+        "description": "Los Vengadores se reúnen de nuevo y juntan sus fuerzas con las de los recién llegados Quicksilver y Bruja Escarlata para luchar contra un robot maquiavélico llamado Ultrón, el cual Tony Stark creó con el fin de defender la paz, pero resultó defectuoso y ahora pretende exterminar a toda la humanidad."
+    },
+
+    { 
+        "title": "Ant-Man",
+        "years": 2015,
+        "poster": "https://drive.google.com/uc?id=1tJMs3G1O2TSMsGzqXmRyTw3R4SCyENp2",
+        "trailer": "https://youtu.be/pWdKf3MneyI",
+        "description": "Un ladrón con la habilidad de encogerse de tamaño pero crecer en fuerza debe sacar su héroe interior y ayudar a su mentor a llevar a cabo un plan para salvar al mundo."
+    },
+
+    { 
+        "title": "Captain America: Civil War",
+        "years": 2016,
+        "poster": "https://drive.google.com/uc?id=1PQfV9NsWrCSV7iVWJFe0cNxoUwuJDUCs",
+        "trailer": "https://youtu.be/pWdKf3MneyI",
+        "description": "Un ladrón con la habilidad de encogerse de tamaño pero crecer en fuerza debe sacar su héroe interior y ayudar a su mentor a llevar a cabo un plan para salvar al mundo."
+    },
+
+    { 
+        "title": "Doctor Strange",
+        "years": 2016,
+        "poster": "https://drive.google.com/uc?id=1Ym5ZZF7ONteKF6_iXONNJYMTZQIdymZr",
+        "trailer": "https://youtu.be/Lt-U_t2pUHI",
+        "description": "Después de sufrir un accidente, un brillante y arrogante cirujano busca rehabilitarse mediante técnicas alternativas. Sus intentos le llevan a descubrir que ha sido designado para encabezar la lucha contra una fuerza oscura y sobrenatural."
+    },
+
+    { 
+        "title": "Guardians of the Galaxy Vol.2",
+        "years": 2017,
+        "poster": "https://drive.google.com/uc?id=1msKSQb4poSElWLg349rz4CbE8DSmJHWv",
+        "trailer": "https://youtu.be/wUn05hdkhjM",
+        "description": "Una poderosa raza alienígena contrata a los Guardianes para que protejan sus valiosas baterías de energía, pero, cuando Rocket las roba, los alienígenas envían a sus tropas de combate a vengarse de los Guardianes."
+    },
+
+    { 
+        "title": "Spider-Man: Homecoming",
+        "years": 2017,
+        "poster": "https://drive.google.com/uc?id=1Xj-gRkjRiZpiS4A-As47SDRS-uOJINNZ",
+        "trailer": "https://youtu.be/n9DwoQ7HWvI",
+        "description": "Peter Parker asume su nueva identidad como Spider-Man y regresa a vivir con su tía después de su aventura con los Vengadores. Al volver, mientras sigue bajo la tutela de Tony Stark, descubre que ha surgido un nuevo y despiadado enemigo que pretende destruir todo lo que ama: el Buitre."
+    },
+
+    { 
+        "title": "Thor: Ragnarok",
+        "years": 2017,
+        "poster": "https://drive.google.com/uc?id=1hMQnO3jJ3esn0EqY-8IHjpI7dciT5bk2",
+        "trailer": "https://youtu.be/v7MGUNV8MxU",
+        "description": "Thor está preso en el otro extremo del universo. Necesita regresar a tiempo para evitar que la todopoderosa Hela destruya su mundo, pero para escapar de su confinamiento y evitar el apocalipsis tendrá que vencer antes al increíble Hulk en un torneo de gladiadores."
+    },
+
+    { 
+        "title": "Black Panther",
+        "years": 2018,
+        "poster": "https://drive.google.com/uc?id=1Y7LkgcRvPGfsSRGCt-4pF5S9m4Riz7AR",
+        "trailer": "https://youtu.be/xjDjIWPwcPU",
+        "description": "Después de morir su padre, T'Challa regresa a su nación, Wakanda. Una vez allí, descubre que tiene un nuevo y terrible enemigo, y T'Challa asume la personalidad de Pantera Negra para salvar no solo al reino de Wakanda, sino a toda la humanidad."
+    },
+
+    { 
+        "title": "Avengers: Infinity War",
+        "years": 2018,
+        "poster": "https://drive.google.com/uc?id=1gQECDqC1o3QzHhBd5CcxKkE8RfOGm68z",
+        "trailer": "https://youtu.be/6ZfuNTqbHE8",
+        "description": "Los superhéroes se alían para vencer al poderoso Thanos, el peor enemigo al que se han enfrentado. Si Thanos logra reunir las seis gemas del infinito: poder, tiempo, alma, realidad, mente y espacio, nadie podrá detenerlo."
+    },
+
+    { 
+        "title": "Ant-Man and the Wasp",
+        "years": 2018,
+        "poster": "https://drive.google.com/uc?id=1vJGC8UwQqNVBwYX0EkWexvIuXNmMPdB2",
+        "trailer": "https://youtu.be/UUkn-enk2RU",
+        "description": "Scott Lang vuelve a enfundarse el traje de Ant-Man para pelear codo a codo junto con la Avispa. La misión revela a los dos superhéroes un secreto terrible y los enfrenta a su enemigo más poderoso."
+    },
+
+    { 
+        "title": "Captain Marvel",
+        "years": 2019,
+        "poster": "https://drive.google.com/uc?id=1LV8huwftYxKMTZGWs_-u7bME_NAqy5tu",
+        "trailer": "https://youtu.be/Z1BCujX3pw8",
+        "description": "Una guerrera extraterrestre de la civilización Kree se encuentra atrapada en medio de una batalla. Con la ayuda de Nick Fury trata de descubrir los secretos de su pasado mientras aprovecha sus poderes para terminar la guerra."
+    }
+]
