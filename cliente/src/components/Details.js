@@ -28,8 +28,7 @@ function Details({ match }) {
             <p style={{ textShadow: "5px 5px 5px black", fontSize: "50px", color: "white" }}>item</p>
             <div className="row m-0 w-100 mx-auto">
                 
-
-                    
+  
             </div>
         </div>
         );
